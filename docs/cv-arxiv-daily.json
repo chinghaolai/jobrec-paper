@@ -1,0 +1,279 @@
+{
+    "Job Recommendation": {
+        "2605.27656": {
+            "title": "Developing an Intelligent Job Recommendation System Using Semantic Retrieval and Explainable AI Techniques",
+            "authors": "Hussein Al Awad, Khaled Fathi Omar",
+            "first_author": "Hussein Al Awad",
+            "url": "https://arxiv.org/abs/2605.27656",
+            "pdf_url": "https://arxiv.org/abs/2605.27656",
+            "publish_date": "2026-05-26",
+            "abstract": "Online recruitment platforms require recommendation methods capable of retrieving relevant job opportunities from large and heterogeneous collections of job postings. Keyword-based search is efficient and interpretable, but it may fail to retrieve relevant postings when equivalent roles are expressed using different terminology. This study presents a metadata-driven job recommendation system that combines TF-IDF lexical matching, Sentence-BERT semantic retrieval, query-aware filtering, optional Cross-Encoder re-ranking, and explanation generation. The proposed system utilizes structured metadata fields including job title, company name, location, seniority level, job function, employment type, and industry without relying on full job descriptions or user interaction histories. Experiments conducted on a cleaned LinkedIn job posting dataset containing 31262 records demonstrate that the best hybrid configuration achieved a Precision at 10 score of 0.8032 and an nDCG at 10 score of 0.9496. Under the internal evaluation protocol, Cross-Encoder re-ranking improved Precision at 10 from 0.7896 to 0.7948 and nDCG at 10 from 0.9666 to 0.9739. These findings indicate that lexical and semantic retrieval techniques can be effectively combined to provide explainable job recommendations when only structured metadata is available.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.03097": {
+            "title": "De-conflating Preference and Qualification: Constrained Dual-Perspective Reasoning for Job Recommendation with Large Language Models",
+            "authors": "Bryce Kan, Wei Yang, Emily Nguyen, Ganghui Yi, Bowen Yi, Chenxiao Yu, Yan Liu",
+            "first_author": "Bryce Kan",
+            "url": "https://arxiv.org/abs/2602.03097",
+            "pdf_url": "https://arxiv.org/abs/2602.03097",
+            "publish_date": "2026-02-03",
+            "abstract": "Professional job recommendation involves a complex bipartite matching process that must reconcile a candidate's subjective preference with an employer's objective qualification. While Large Language Models (LLMs) are well-suited for modeling the rich semantics of resumes and job descriptions, existing paradigms often collapse these two decision dimensions into a single interaction signal, yielding confounded supervision under recruitment-funnel censoring and limiting policy controllability. To address these challenges, We propose JobRec, a generative job recommendation framework for de-conflating preference and qualification via constrained dual-perspective reasoning. JobRec introduces a Unified Semantic Alignment Schema that aligns candidate and job attributes into structured semantic layers, and a Two-Stage Cooperative Training Strategy that learns decoupled experts to separately infer preference and qualification. Building on these experts, a Lagrangian-based Policy Alignment module optimizes recommendations under explicit eligibility requirements, enabling controllable trade-offs. To mitigate data scarcity, we construct a synthetic dataset refined by experts. Experiments show that JobRec consistently outperforms strong baselines and provides improved controllability for strategy-aware professional matching.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2503.02056": {
+            "title": "CareerBERT: Matching Resumes to ESCO Jobs in a Shared Embedding Space for Generic Job Recommendations",
+            "authors": "Julian Rosenberger, Lukas Wolfrum, Sven Weinzierl, Mathias Kraus, Patrick Zschech",
+            "first_author": "Julian Rosenberger",
+            "url": "https://arxiv.org/abs/2503.02056",
+            "pdf_url": "https://arxiv.org/abs/2503.02056",
+            "publish_date": "2025-03-03",
+            "abstract": "The rapidly evolving labor market, driven by technological advancements and economic shifts, presents significant challenges for traditional job matching and consultation services. In response, we introduce an advanced support tool for career counselors and job seekers based on CareerBERT, a novel approach that leverages the power of unstructured textual data sources, such as resumes, to provide more accurate and comprehensive job recommendations. In contrast to previous approaches that primarily focus on job recommendations based on a fixed set of concrete job advertisements, our approach involves the creation of a corpus that combines data from the European Skills, Competences, and Occupations (ESCO) taxonomy and EURopean Employment Services (EURES) job advertisements, ensuring an up-to-date and well-defined representation of general job titles in the labor market. Our two-step evaluation approach, consisting of an application-grounded evaluation using EURES job advertisements and a human-grounded evaluation using real-world resumes and Human Resources (HR) expert feedback, provides a comprehensive assessment of CareerBERT's performance. Our experimental results demonstrate that CareerBERT outperforms both traditional and state-of-the-art embedding approaches while showing robust effectiveness in human expert evaluations. These results confirm the effectiveness of CareerBERT in supporting career consultants by generating relevant job recommendations based on resumes, ultimately enhancing the efficiency of job consultations and expanding the perspectives of job seekers. This research contributes to the field of NLP and job recommendation systems, offering valuable insights for both researchers and practitioners in the domain of career consulting and job matching.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2411.15146": {
+            "title": "TIMBRE: Efficient Job Recommendation On Heterogeneous Graphs For Professional Recruiters",
+            "authors": "Eric Behar, Julien Romero, Amel Bouzeghoub, Katarzyna Wegrzyn-Wolska",
+            "first_author": "Eric Behar",
+            "url": "https://arxiv.org/abs/2411.15146",
+            "pdf_url": "https://arxiv.org/abs/2411.15146",
+            "publish_date": "2024-11-06",
+            "abstract": "Job recommendation gathers many challenges well-known in recommender systems. First, it suffers from the cold start problem, with the user (the candidate) and the item (the job) having a very limited lifespan. It makes the learning of good user and item representations hard. Second, the temporal aspect is crucial: We cannot recommend an item in the future or too much in the past. Therefore, using solely collaborative filtering barely works. Finally, it is essential to integrate information about the users and the items, as we cannot rely only on previous interactions. This paper proposes a temporal graph-based method for job recommendation: TIMBRE (Temporal Integrated Model for Better REcommendations). TIMBRE integrates user and item information into a heterogeneous graph. This graph is adapted to allow efficient temporal recommendation and evaluation, which is later done using a graph neural network. Finally, we evaluate our approach with recommender system metrics, rarely computed on graph-based recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2410.07671": {
+            "title": "DISCO: A Hierarchical Disentangled Cognitive Diagnosis Framework for Interpretable Job Recommendation",
+            "authors": "Xiaoshan Yu, Chuan Qin, Qi Zhang, Chen Zhu, Haiping Ma, Xingyi Zhang, Hengshu Zhu",
+            "first_author": "Xiaoshan Yu",
+            "url": "https://arxiv.org/abs/2410.07671",
+            "pdf_url": "https://arxiv.org/abs/2410.07671",
+            "publish_date": "2024-10-10",
+            "abstract": "The rapid development of online recruitment platforms has created unprecedented opportunities for job seekers while concurrently posing the significant challenge of quickly and accurately pinpointing positions that align with their skills and preferences. Job recommendation systems have significantly alleviated the extensive search burden for job seekers by optimizing user engagement metrics, such as clicks and applications, thus achieving notable success. In recent years, a substantial amount of research has been devoted to developing effective job recommendation models, primarily focusing on text-matching based and behavior modeling based methods. While these approaches have realized impressive outcomes, it is imperative to note that research on the explainability of recruitment recommendations remains profoundly unexplored. To this end, in this paper, we propose DISCO, a hierarchical Disentanglement based Cognitive diagnosis framework, aimed at flexibly accommodating the underlying representation learning model for effective and interpretable job recommendations. Specifically, we first design a hierarchical representation disentangling module to explicitly mine the hierarchical skill-related factors implied in hidden representations of job seekers and jobs. Subsequently, we propose level-aware association modeling to enhance information communication and robust representation learning both inter- and intra-level, which consists of the interlevel knowledge influence module and the level-wise contrastive learning. Finally, we devise an interaction diagnosis module incorporating a neural diagnosis function for effectively modeling the multi-level recruitment interaction process between job seekers and jobs, which introduces the cognitive measurement theory.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2409.15971": {
+            "title": "Creating Healthy Friction: Determining Stakeholder Requirements of Job Recommendation Explanations",
+            "authors": "Roan Schellingerhout, Francesco Barile, Nava Tintarev",
+            "first_author": "Roan Schellingerhout",
+            "url": "https://arxiv.org/abs/2409.15971",
+            "pdf_url": "https://arxiv.org/abs/2409.15971",
+            "publish_date": "2024-09-24",
+            "abstract": "The increased use of information retrieval in recruitment, primarily through job recommender systems (JRSs), can have a large impact on job seekers, recruiters, and companies. As a result, such systems have been determined to be high-risk in recent legislature. This requires JRSs to be trustworthy and transparent, allowing stakeholders to understand why specific recommendations were made. To fulfill this requirement, the stakeholders' exact preferences and needs need to be determined. To do so, we evaluated an explainable job recommender system using a realistic, task-based, mixed-design user study (n=30) in which stakeholders had to make decisions based on the model's explanations. This mixed-methods evaluation consisted of two objective metrics - correctness and efficiency, along with three subjective metrics - trust, transparency, and usefulness. These metrics were evaluated twice per participant, once using real explanations and once using random explanations. The study included a qualitative analysis following a think-aloud protocol while performing tasks adapted to each stakeholder group. We find that providing stakeholders with real explanations does not significantly improve decision-making speed and accuracy. Our results showed a non-significant trend for the real explanations to outperform the random ones on perceived trust, usefulness, and transparency of the system for all stakeholder types. We determine that stakeholders benefit more from interacting with explanations as decision support capable of providing healthy friction, rather than as previously-assumed persuasive tools.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2408.13521": {
+            "title": "HRGraph: Leveraging LLMs for HR Data Knowledge Graphs with Information Propagation-based Job Recommendation",
+            "authors": "Azmine Toushik Wasi",
+            "first_author": "Azmine Toushik Wasi",
+            "url": "https://arxiv.org/abs/2408.13521",
+            "pdf_url": "https://arxiv.org/abs/2408.13521",
+            "publish_date": "2024-08-24",
+            "abstract": "Knowledge Graphs (KGs) serving as semantic networks, prove highly effective in managing complex interconnected data in different domains, by offering a unified, contextualized, and structured representation with flexibility that allows for easy adaptation to evolving knowledge. Processing complex Human Resources (HR) data, KGs can help in different HR functions like recruitment, job matching, identifying learning gaps, and enhancing employee retention. Despite their potential, limited efforts have been made to implement practical HR knowledge graphs. This study addresses this gap by presenting a framework for effectively developing HR knowledge graphs from documents using Large Language Models. The resulting KG can be used for a variety of downstream tasks, including job matching, identifying employee skill gaps, and many more. In this work, we showcase instances where HR KGs prove instrumental in precise job matching, yielding advantages for both employers and employees. Empirical evidence from experiments with information propagation in KGs and Graph Neural Nets, along with case studies underscores the effectiveness of KGs in tasks such as job and employee recommendations and job area classification. Code and data are available at : https://github.com/azminewasi/HRGraph",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2407.00082": {
+            "title": "Adapting Job Recommendations to User Preference Drift with Behavioral-Semantic Fusion Learning",
+            "authors": "Xiao Han, Chen Zhu, Xiao Hu, Chuan Qin, Xiangyu Zhao, Hengshu Zhu",
+            "first_author": "Xiao Han",
+            "url": "https://arxiv.org/abs/2407.00082",
+            "pdf_url": "https://arxiv.org/abs/2407.00082",
+            "publish_date": "2024-06-24",
+            "abstract": "Job recommender systems are crucial for aligning job opportunities with job-seekers in online job-seeking. However, users tend to adjust their job preferences to secure employment opportunities continually, which limits the performance of job recommendations. The inherent frequency of preference drift poses a challenge to promptly and precisely capture user preferences. To address this issue, we propose a novel session-based framework, BISTRO, to timely model user preference through fusion learning of semantic and behavioral information. Specifically, BISTRO is composed of three stages: 1) coarse-grained semantic clustering, 2) fine-grained job preference extraction, and 3) personalized top-$k$ job recommendation. Initially, BISTRO segments the user interaction sequence into sessions and leverages session-based semantic clustering to achieve broad identification of person-job matching. Subsequently, we design a hypergraph wavelet learning method to capture the nuanced job preference drift. To mitigate the effect of noise in interactions caused by frequent preference drift, we innovatively propose an adaptive wavelet filtering technique to remove noisy interaction. Finally, a recurrent neural network is utilized to analyze session-based interaction for inferring personalized preferences. Extensive experiments on three real-world offline recruitment datasets demonstrate the significant performances of our framework. Significantly, BISTRO also excels in online experiments, affirming its effectiveness in live recruitment settings. This dual success underscores the robustness and adaptability of BISTRO. The source code is available at https://github.com/Applied-Machine-Learning-Lab/BISTRO.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2404.04313": {
+            "title": "JobFormer: Skill-Aware Job Recommendation with Semantic-Enhanced Transformer",
+            "authors": "Zhihao Guan, Jia-Qi Yang, Yang Yang, Hengshu Zhu, Wenjie Li, Hui Xiong",
+            "first_author": "Zhihao Guan",
+            "url": "https://arxiv.org/abs/2404.04313",
+            "pdf_url": "https://arxiv.org/abs/2404.04313",
+            "publish_date": "2024-04-05",
+            "abstract": "Job recommendation aims to provide potential talents with suitable job descriptions (JDs) consistent with their career trajectory, which plays an essential role in proactive talent recruitment. In real-world management scenarios, the available JD-user records always consist of JDs, user profiles, and click data, in which the user profiles are typically summarized as the user's skill distribution for privacy reasons. Although existing sophisticated recommendation methods can be directly employed, effective recommendation still has challenges considering the information deficit of JD itself and the natural heterogeneous gap between JD and user profile. To address these challenges, we proposed a novel skill-aware recommendation model based on the designed semantic-enhanced transformer to parse JDs and complete personalized job recommendation. Specifically, we first model the relative items of each JD and then adopt an encoder with the local-global attention mechanism to better mine the intra-job and inter-job dependencies from JD tuples. Moreover, we adopt a two-stage learning strategy for skill-aware recommendation, in which we utilize the skill distribution to guide JD representation learning in the recall stage, and then combine the user profiles for final prediction in the ranking stage. Consequently, we can embed rich contextual semantic representations for learning JDs, while skill-aware recommendation provides effective JD-user joint representation for click-through rate (CTR) prediction. To validate the superior performance of our method for job recommendation, we present a thorough empirical analysis of large-scale real-world and public datasets to demonstrate its effectiveness and interpretability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2309.11805": {
+            "title": "JobRecoGPT -- Explainable job recommendations using LLMs",
+            "authors": "Preetam Ghosh, Vaishali Sadaphal",
+            "first_author": "Preetam Ghosh",
+            "url": "https://arxiv.org/abs/2309.11805",
+            "pdf_url": "https://arxiv.org/abs/2309.11805",
+            "publish_date": "2023-09-21",
+            "abstract": "In today's rapidly evolving job market, finding the right opportunity can be a daunting challenge. With advancements in the field of AI, computers can now recommend suitable jobs to candidates. However, the task of recommending jobs is not same as recommending movies to viewers. Apart from must-have criteria, like skills and experience, there are many subtle aspects to a job which can decide if it is a good fit or not for a given candidate. Traditional approaches can capture the quantifiable aspects of jobs and candidates, but a substantial portion of the data that is present in unstructured form in the job descriptions and resumes is lost in the process of conversion to structured format. As of late, Large Language Models (LLMs) have taken over the AI field by storm with extraordinary performance in fields where text-based data is available. Inspired by the superior performance of LLMs, we leverage their capability to understand natural language for capturing the information that was previously getting lost during the conversion of unstructured data to structured form. To this end, we compare performance of four different approaches for job recommendations namely, (i) Content based deterministic, (ii) LLM guided, (iii) LLM unguided, and (iv) Hybrid. In this study, we present advantages and limitations of each method and evaluate their performance in terms of time requirements.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2308.09516": {
+            "title": "ReCon: Reducing Congestion in Job Recommendation using Optimal Transport",
+            "authors": "Yoosof Mashayekhi, Bo Kang, Jefrey Lijffijt, Tijl De Bie",
+            "first_author": "Yoosof Mashayekhi",
+            "url": "https://arxiv.org/abs/2308.09516",
+            "pdf_url": "https://arxiv.org/abs/2308.09516",
+            "publish_date": "2023-08-18",
+            "abstract": "Recommender systems may suffer from congestion, meaning that there is an unequal distribution of the items in how often they are recommended. Some items may be recommended much more than others. Recommenders are increasingly used in domains where items have limited availability, such as the job market, where congestion is especially problematic: Recommending a vacancy -- for which typically only one person will be hired -- to a large number of job seekers may lead to frustration for job seekers, as they may be applying for jobs where they are not hired. This may also leave vacancies unfilled and result in job market inefficiency. We propose a novel approach to job recommendation called ReCon, accounting for the congestion problem. Our approach is to use an optimal transport component to ensure a more equal spread of vacancies over job seekers, combined with a job recommendation model in a multi-objective optimization problem. We evaluated our approach on two real-world job market datasets. The evaluation results show that ReCon has good performance on both congestion-related (e.g., Congestion) and desirability (e.g., NDCG) measures.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2308.02053": {
+            "title": "The Unequal Opportunities of Large Language Models: Revealing Demographic Bias through Job Recommendations",
+            "authors": "Abel Salinas, Parth Vipul Shah, Yuzhong Huang, Robert McCormack, Fred Morstatter",
+            "first_author": "Abel Salinas",
+            "url": "https://arxiv.org/abs/2308.02053",
+            "pdf_url": "https://arxiv.org/abs/2308.02053",
+            "publish_date": "2023-08-03",
+            "abstract": "Large Language Models (LLMs) have seen widespread deployment in various real-world applications. Understanding these biases is crucial to comprehend the potential downstream consequences when using LLMs to make decisions, particularly for historically disadvantaged groups. In this work, we propose a simple method for analyzing and comparing demographic bias in LLMs, through the lens of job recommendations. We demonstrate the effectiveness of our method by measuring intersectional biases within ChatGPT and LLaMA, two cutting-edge LLMs. Our experiments primarily focus on uncovering gender identity and nationality bias; however, our method can be extended to examine biases associated with any intersection of demographic identities. We identify distinct biases in both models toward various demographic identities, such as both models consistently suggesting low-paying jobs for Mexican workers or preferring to recommend secretarial roles to women. Our study highlights the importance of measuring the bias of LLMs in downstream applications to understand the potential for harm and inequitable outcomes.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2307.10747": {
+            "title": "Enhancing Job Recommendation through LLM-based Generative Adversarial Networks",
+            "authors": "Yingpeng Du, Di Luo, Rui Yan, Hongzhi Liu, Yang Song, Hengshu Zhu, Jie Zhang",
+            "first_author": "Yingpeng Du",
+            "url": "https://arxiv.org/abs/2307.10747",
+            "pdf_url": "https://arxiv.org/abs/2307.10747",
+            "publish_date": "2023-07-20",
+            "abstract": "Recommending suitable jobs to users is a critical task in online recruitment platforms, as it can enhance users' satisfaction and the platforms' profitability. While existing job recommendation methods encounter challenges such as the low quality of users' resumes, which hampers their accuracy and practical effectiveness. With the rapid development of large language models (LLMs), utilizing the rich external knowledge encapsulated within them, as well as their powerful capabilities of text processing and reasoning, is a promising way to complete users' resumes for more accurate recommendations. However, directly leveraging LLMs to enhance recommendation results is not a one-size-fits-all solution, as LLMs may suffer from fabricated generation and few-shot problems, which degrade the quality of resume completion. In this paper, we propose a novel LLM-based approach for job recommendation. To alleviate the limitation of fabricated generation for LLMs, we extract accurate and valuable information beyond users' self-description, which helps the LLMs better profile users for resume completion. Specifically, we not only extract users' explicit properties (e.g., skills, interests) from their self-description but also infer users' implicit characteristics from their behaviors for more accurate and meaningful resume completion. Nevertheless, some users still suffer from few-shot problems, which arise due to scarce interaction records, leading to limited guidance for the models in generating high-quality resumes. To address this issue, we propose aligning unpaired low-quality with high-quality generated resumes by Generative Adversarial Networks (GANs), which can refine the resume representations for better recommendation results. Extensive experiments on three large real-world recruitment datasets demonstrate the effectiveness of our proposed method.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2307.05722": {
+            "title": "Exploring Large Language Model for Graph Data Understanding in Online Job Recommendations",
+            "authors": "Likang Wu, Zhaopeng Qiu, Zhi Zheng, Hengshu Zhu, Enhong Chen",
+            "first_author": "Likang Wu",
+            "url": "https://arxiv.org/abs/2307.05722",
+            "pdf_url": "https://arxiv.org/abs/2307.05722",
+            "publish_date": "2023-07-10",
+            "abstract": "Large Language Models (LLMs) have revolutionized natural language processing tasks, demonstrating their exceptional capabilities in various domains. However, their potential for behavior graph understanding in job recommendations remains largely unexplored. This paper focuses on unveiling the capability of large language models in understanding behavior graphs and leveraging this understanding to enhance recommendations in online recruitment, including the promotion of out-of-distribution (OOD) application. We present a novel framework that harnesses the rich contextual information and semantic representations provided by large language models to analyze behavior graphs and uncover underlying patterns and relationships. Specifically, we propose a meta-path prompt constructor that leverages LLM recommender to understand behavior graphs for the first time and design a corresponding path augmentation module to alleviate the prompt bias introduced by path-based sequence input. By leveraging this capability, our framework enables personalized and accurate job recommendations for individual users. We evaluate the effectiveness of our approach on a comprehensive dataset and demonstrate its ability to improve the relevance and quality of recommended quality. This research not only sheds light on the untapped potential of large language models but also provides valuable insights for developing advanced recommendation systems in the recruitment market. The findings contribute to the growing field of natural language processing and offer practical implications for enhancing job search experiences. We release the code at https://github.com/WLiK/GLRec.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2307.02157": {
+            "title": "Generative Job Recommendations with Large Language Model",
+            "authors": "Zhi Zheng, Zhaopeng Qiu, Xiao Hu, Likang Wu, Hengshu Zhu, Hui Xiong",
+            "first_author": "Zhi Zheng",
+            "url": "https://arxiv.org/abs/2307.02157",
+            "pdf_url": "https://arxiv.org/abs/2307.02157",
+            "publish_date": "2023-07-05",
+            "abstract": "The rapid development of online recruitment services has encouraged the utilization of recommender systems to streamline the job seeking process. Predominantly, current job recommendations deploy either collaborative filtering or person-job matching strategies. However, these models tend to operate as \"black-box\" systems and lack the capacity to offer explainable guidance to job seekers. Moreover, conventional matching-based recommendation methods are limited to retrieving and ranking existing jobs in the database, restricting their potential as comprehensive career AI advisors. To this end, here we present GIRL (GeneratIve job Recommendation based on Large language models), a novel approach inspired by recent advancements in the field of Large Language Models (LLMs). We initially employ a Supervised Fine-Tuning (SFT) strategy to instruct the LLM-based generator in crafting suitable Job Descriptions (JDs) based on the Curriculum Vitae (CV) of a job seeker. Moreover, we propose to train a model which can evaluate the matching degree between CVs and JDs as a reward model, and we use Proximal Policy Optimization (PPO)-based Reinforcement Learning (RL) method to further fine-tine the generator. This aligns the generator with recruiter feedback, tailoring the output to better meet employer preferences. In particular, GIRL serves as a job seeker-centric generative model, providing job suggestions without the need of a candidate set. This capability also enhances the performance of existing job recommendation models by supplementing job seeking features with generated content. With extensive experiments on a large-scale real-world dataset, we demonstrate the substantial effectiveness of our approach. We believe that GIRL introduces a paradigm-shifting approach to job recommendation systems, fostering a more personalized and comprehensive job-seeking experience.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2302.14063": {
+            "title": "How optimal transport can tackle gender biases in multi-class neural-network classifiers for job recommendations?",
+            "authors": "Fanny Jourdan, Titon Tshiongo Kaninku, Nicholas Asher, Jean-Michel Loubes, Laurent Risser",
+            "first_author": "Fanny Jourdan",
+            "url": "https://arxiv.org/abs/2302.14063",
+            "pdf_url": "https://arxiv.org/abs/2302.14063",
+            "publish_date": "2023-02-27",
+            "abstract": "Automatic recommendation systems based on deep neural networks have become extremely popular during the last decade. Some of these systems can however be used for applications which are ranked as High Risk by the European Commission in the A.I. act, as for instance for online job candidate recommendation. When used in the European Union, commercial AI systems for this purpose will then be required to have to proper statistical properties with regard to potential discrimination they could engender. This motivated our contribution, where we present a novel optimal transport strategy to mitigate undesirable algorithmic biases in multi-class neural-network classification. Our stratey is model agnostic and can be used on any multi-class classification neural-network model. To anticipate the certification of recommendation systems using textual data, we then used it on the Bios dataset, for which the learning task consists in predicting the occupation of female and male individuals, based on their LinkedIn biography. Results show that it can reduce undesired algorithmic biases in this context to lower levels than a standard strategy.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2301.07946": {
+            "title": "Job recommendations: benchmarking of collaborative filtering methods for classifieds",
+            "authors": "Robert Kwieciński, Agata Filipowska, Tomasz Górecki, Viacheslav Dubrov",
+            "first_author": "Robert Kwieciński",
+            "url": "https://arxiv.org/abs/2301.07946",
+            "pdf_url": "https://arxiv.org/abs/2301.07946",
+            "publish_date": "2023-01-19",
+            "abstract": "Classifieds provide many challenges for recommendation methods, due to the limited information regarding users and items. In this paper, we explore recommendation methods for classifieds using the example of OLX Jobs. The goal of the paper is to benchmark different recommendation methods for jobs classifieds in order to improve advertisements' conversion rate and user satisfaction. In our research, we implemented methods that are scalable and represent different approaches to recommendation, namely ALS, LightFM, Prod2Vec, RP3beta, and SLIM. We performed a laboratory comparison of methods with regard to accuracy, diversity, and scalability (memory and time consumption during training and in prediction). Online A/B tests were also carried out by sending millions of messages with recommendations to evaluate models in a real-world setting. In addition, we have published the dataset that we created for the needs of our research. To the best of our knowledge, this is the first dataset of this kind. The dataset contains 65,502,201 events performed on OLX Jobs by 3,295,942 users, who interacted with (displayed, replied to, or bookmarked) 185,395 job ads in two weeks of 2020. We demonstrate that RP3beta, SLIM, and ALS perform significantly better than Prod2Vec and LightFM when tested in a laboratory setting. Online A/B tests also demonstrated that sending messages with recommendations generated by the ALS and RP3beta models increases the number of users contacting advertisers. Additionally, RP3beta had a 20% greater impact on this metric than ALS.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2212.02885": {
+            "title": "Template-based Recruitment Email Generation For Job Recommendation",
+            "authors": "Qiuchi Li, Christina Lioma",
+            "first_author": "Qiuchi Li",
+            "url": "https://arxiv.org/abs/2212.02885",
+            "pdf_url": "https://arxiv.org/abs/2212.02885",
+            "publish_date": "2022-12-06",
+            "abstract": "Text generation has long been a popular research topic in NLP. However, the task of generating recruitment emails from recruiters to candidates in the job recommendation scenario has received little attention by the research community. This work aims at defining the topic of automatic email generation for job recommendation, identifying the challenges, and providing a baseline template-based solution for Danish jobs. Evaluation by human experts shows that our method is effective. We wrap up by discussing the future research directions for better solving this task.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2209.09592": {
+            "title": "Closing the Gender Wage Gap: Adversarial Fairness in Job Recommendation",
+            "authors": "Clara Rus, Jeffrey Luppes, Harrie Oosterhuis, Gido H. Schoenmacker",
+            "first_author": "Clara Rus",
+            "url": "https://arxiv.org/abs/2209.09592",
+            "pdf_url": "https://arxiv.org/abs/2209.09592",
+            "publish_date": "2022-09-20",
+            "abstract": "The goal of this work is to help mitigate the already existing gender wage gap by supplying unbiased job recommendations based on resumes from job seekers. We employ a generative adversarial network to remove gender bias from word2vec representations of 12M job vacancy texts and 900k resumes. Our results show that representations created from recruitment texts contain algorithmic bias and that this bias results in real-world consequences for recommendation systems. Without controlling for bias, women are recommended jobs with significantly lower salary in our data. With adversarially fair representations, this wage gap disappears, meaning that our debiased job recommendations reduce wage discrimination. We conclude that adversarial debiasing of word representations can increase real-world fairness of systems and thus may be part of the solution for creating fairness-aware recommendation systems.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "1907.12379": {
+            "title": "Tripartite Vector Representations for Better Job Recommendation",
+            "authors": "Mengshu Liu, Jingya Wang, Kareem Abdelfatah, Mohammed Korayem",
+            "first_author": "Mengshu Liu",
+            "url": "https://arxiv.org/abs/1907.12379",
+            "pdf_url": "https://arxiv.org/abs/1907.12379",
+            "publish_date": "2019-07-23",
+            "abstract": "Job recommendation is a crucial part of the online job recruitment business. To match the right person with the right job, a good representation of job postings is required. Such representations should ideally recommend jobs with fitting titles, aligned skill set, and reasonable commute. To address these aspects, we utilize three information graphs ( job-job, skill-skill, job-skill) from historical job data to learn a joint representation for both job titles and skills in a shared latent space. This allows us to gain a representation of job postings/ resume using both elements, which subsequently can be combined with location. In this paper, we first present how the presentation of each component is obtained, and then we discuss how these different representations are combined together into one single space to acquire the final representation. The results of comparing the proposed methodology against different base-line methods show significant improvement in terms of relevancy.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "1907.06556": {
+            "title": "Should we Embed? A Study on the Online Performance of Utilizing Embeddings for Real-Time Job Recommendations",
+            "authors": "Markus Reiter-Haas, Emanuel Lacic, Tomislav Duricic, Valentin Slawicek, Elisabeth Lex",
+            "first_author": "Markus Reiter-Haas",
+            "url": "https://arxiv.org/abs/1907.06556",
+            "pdf_url": "https://arxiv.org/abs/1907.06556",
+            "publish_date": "2019-07-15",
+            "abstract": "In this work, we present the findings of an online study, where we explore the impact of utilizing embeddings to recommend job postings under real-time constraints. On the Austrian job platform Studo Jobs, we evaluate two popular recommendation scenarios: (i) providing similar jobs and, (ii) personalizing the job postings that are shown on the homepage. Our results show that for recommending similar jobs, we achieve the best online performance in terms of Click-Through Rate when we employ embeddings based on the most recent interaction. To personalize the job postings shown on a user's homepage, however, combining embeddings based on the frequency and recency with which a user interacts with job postings results in the best online performance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "1905.13136": {
+            "title": "Job Recommendation through Progression of Job Selection",
+            "authors": "Amber Nigam, Aakash Roy, Arpan Saxena, Hartaran Singh",
+            "first_author": "Amber Nigam",
+            "url": "https://arxiv.org/abs/1905.13136",
+            "pdf_url": "https://arxiv.org/abs/1905.13136",
+            "publish_date": "2019-05-28",
+            "abstract": "Job recommendation has traditionally been treated as a filter-based match or as a recommendation based on the features of jobs and candidates as discrete entities. In this paper, we introduce a methodology where we leverage the progression of job selection by candidates using machine learning. Additionally, our recommendation is composed of several other sub-recommendations that contribute to at least one of a) making recommendations serendipitous for the end user b) overcoming cold-start for both candidates and jobs. One of the unique selling propositions of our methodology is the way we have used skills as embedded features and derived latent competencies from them, thereby attempting to expand the skills of candidates and jobs to achieve more coverage in the skill domain. We have deployed our model in a real-world job recommender system and have achieved the best click-through rate through a blended approach of machine-learned recommendations and other sub-recommendations. For recommending jobs through machine learning that forms a significant part of our recommendation, we achieve the best results through Bi-LSTM with attention.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "1801.00377": {
+            "title": "Help Me Find a Job: A Graph-based Approach for Job Recommendation at Scale",
+            "authors": "Walid Shalaby, BahaaEddin AlAila, Mohammed Korayem, Layla Pournajaf, Khalifeh AlJadda, Shannon Quinn, Wlodek Zadrozny",
+            "first_author": "Walid Shalaby",
+            "url": "https://arxiv.org/abs/1801.00377",
+            "pdf_url": "https://arxiv.org/abs/1801.00377",
+            "publish_date": "2018-01-01",
+            "abstract": "Online job boards are one of the central components of modern recruitment industry. With millions of candidates browsing through job postings everyday, the need for accurate, effective, meaningful, and transparent job recommendations is apparent more than ever. While recommendation systems are successfully advancing in variety of online domains by creating social and commercial value, the job recommendation domain is less explored. Existing systems are mostly focused on content analysis of resumes and job descriptions, relying heavily on the accuracy and coverage of the semantic analysis and modeling of the content in which case, they end up usually suffering from rigidity and the lack of implicit semantic relations that are uncovered from users' behavior and could be captured by Collaborative Filtering (CF) methods. Few works which utilize CF do not address the scalability challenges of real-world systems and the problem of cold-start. In this paper, we propose a scalable item-based recommendation system for online job recommendations. Our approach overcomes the major challenges of sparsity and scalability by leveraging a directed graph of jobs connected by multi-edges representing various behavioral and contextual similarity signals. The short lived nature of the items (jobs) in the system and the rapid rate in which new users and jobs enter the system make the cold-start a serious problem hindering CF methods. We address this problem by harnessing the power of deep learning in addition to user behavior to serve hybrid recommendations. Our technique has been leveraged by CareerBuilder.com which is one of the largest job boards in the world to generate high-quality recommendations for millions of users.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "1711.07762": {
+            "title": "Beyond Accuracy Optimization: On the Value of Item Embeddings for Student Job Recommendations",
+            "authors": "Emanuel Lacic, Dominik Kowald, Markus Reiter-Haas, Valentin Slawicek, Elisabeth Lex",
+            "first_author": "Emanuel Lacic",
+            "url": "https://arxiv.org/abs/1711.07762",
+            "pdf_url": "https://arxiv.org/abs/1711.07762",
+            "publish_date": "2017-11-21",
+            "abstract": "In this work, we address the problem of recommending jobs to university students. For this, we explore the utilization of neural item embeddings for the task of content-based recommendation, and we propose to integrate the factors of frequency and recency of interactions with job postings to combine these item embeddings. We evaluate our job recommendation system on a dataset of the Austrian student job portal Studo using prediction accuracy, diversity and an adapted novelty metric. This paper demonstrates that utilizing frequency and recency of interactions with job postings for combining item embeddings results in a robust model with respect to accuracy and diversity, which also provides the best adapted novelty results.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "1612.00959": {
+            "title": "RecSys Challenge 2016: job recommendations based on preselection of offers and gradient boosting",
+            "authors": "Andrzej Pacuk, Piotr Sankowski, Karol Węgrzycki, Adam Witkowski, Piotr Wygocki",
+            "first_author": "Andrzej Pacuk",
+            "url": "https://arxiv.org/abs/1612.00959",
+            "pdf_url": "https://arxiv.org/abs/1612.00959",
+            "publish_date": "2016-12-03",
+            "abstract": "We present the Mim-Solution's approach to the RecSys Challenge 2016, which ranked 2nd. The goal of the competition was to prepare job recommendations for the users of the website Xing.com. Our two phase algorithm consists of candidate selection followed by the candidate ranking. We ranked the candidates by the predicted probability that the user will positively interact with the job offer. We have used Gradient Boosting Decision Trees as the regression tool.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        }
+    }
+}

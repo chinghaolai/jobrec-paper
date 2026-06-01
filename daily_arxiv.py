@@ -115,7 +115,7 @@ def get_daily_papers(topic: str, query: str, max_results: int) -> dict:
         for entry in entries:
             title = re.sub(r"\s+", " ", _text(entry, "atom:title"))
 
-            if "recommendation" not in title.lower():
+            if "job recommendation" not in title.lower():
                 continue
 
             entry_id = _text(entry, "atom:id")
