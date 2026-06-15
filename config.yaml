@@ -23,4 +23,4 @@ md_wechat_path: './docs/wechat.md'
 # keywords to search
 keywords:
     "Job Recommendation":
-        filters: ["Job Recommendation"]
+        filters: ["Job Recommendation", "Job Recommender", "Job recommendations"]
