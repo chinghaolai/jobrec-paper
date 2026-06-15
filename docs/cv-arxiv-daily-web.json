@@ -274,6 +274,428 @@
             "abstract": "We present the Mim-Solution's approach to the RecSys Challenge 2016, which ranked 2nd. The goal of the competition was to prepare job recommendations for the users of the website Xing.com. Our two phase algorithm consists of candidate selection followed by the candidate ranking. We ranked the candidates by the predicted probability that the user will positively interact with the job offer. We have used Gradient Boosting Decision Trees as the regression tool.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2603.21699": {
+            "title": "A Job I Like or a Job I Can Get: Designing Job Recommender Systems Using Field Experiments",
+            "authors": "Guillaume Bied, Philippe Caillou, Bruno Crépon, Christophe Gaillac, Elia Pérennes, Michèle Sebag",
+            "first_author": "Guillaume Bied",
+            "url": "https://arxiv.org/abs/2603.21699",
+            "pdf_url": "https://arxiv.org/abs/2603.21699",
+            "publish_date": "2026-03-23",
+            "abstract": "Recommendation systems (RSs) are increasingly used to guide job seekers on online platforms, yet the algorithms currently deployed are typically optimized for predictive objectives such as clicks, applications, or hires, rather than job seekers' welfare. We develop a job-search model with an application stage in which the value of a vacancy depends on two dimensions: the utility it delivers to the worker and the probability that an application succeeds. The model implies that welfare-optimal RSs rank vacancies by an expected-surplus index combining both, and shows why rankings based solely on utility, hiring probabilities, or observed application behavior are generically suboptimal, an instance of the inversion problem between behavior and welfare. We test these predictions and quantify their practical importance through two randomized field experiments conducted with the French public employment service. The first experiment, comparing existing algorithms and their combinations, provides behavioral evidence that both dimensions shape application decisions. Guided by the model and these results, the second experiment extends the comparison to an RS designed to approximate the welfare-optimal ranking. The experiments generate exogenous variation in the vacancies shown to job seekers, allowing us to estimate the model, validate its behavioral predictions, and construct a welfare metric. Algorithms informed by the model-implied optimal ranking substantially outperform existing approaches and perform close to the welfare-optimal benchmark. Our results show that embedding predictive tools within a simple job-search framework and combining it with experimental evidence yields recommendation rules with substantial welfare gains in practice.",
+            "primary_category": "econ.EM",
+            "code_url": "null"
+        },
+        "2504.07108": {
+            "title": "OKRA: an Explainable, Heterogeneous, Multi-Stakeholder Job Recommender System",
+            "authors": "Roan Schellingerhout, Francesco Barile, Nava Tintarev",
+            "first_author": "Roan Schellingerhout",
+            "url": "https://arxiv.org/abs/2504.07108",
+            "pdf_url": "https://arxiv.org/abs/2504.07108",
+            "publish_date": "2025-03-17",
+            "abstract": "The use of recommender systems in the recruitment domain has been labeled as 'high-risk' in recent legislation. As a result, strict requirements regarding explainability and fairness have been put in place to ensure proper treatment of all involved stakeholders. To allow for stakeholder-specific explainability, while also handling highly heterogeneous recruitment data, we propose a novel explainable multi-stakeholder job recommender system using graph neural networks: the Occupational Knowledge-based Recommender using Attention (OKRA). The proposed method is capable of providing both candidate- and company-side recommendations and explanations. We find that OKRA performs substantially better than six baselines in terms of nDCG for two datasets. Furthermore, we find that the tested models show a bias toward candidates and vacancies located in urban areas. Overall, our findings suggest that OKRA provides a balance between accuracy, explainability, and fairness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2410.00654": {
+            "title": "Explainable Multi-Stakeholder Job Recommender Systems",
+            "authors": "Roan Schellingerhout",
+            "first_author": "Roan Schellingerhout",
+            "url": "https://arxiv.org/abs/2410.00654",
+            "pdf_url": "https://arxiv.org/abs/2410.00654",
+            "publish_date": "2024-10-01",
+            "abstract": "Public opinion on recommender systems has become increasingly wary in recent years. In line with this trend, lawmakers have also started to become more critical of such systems, resulting in the introduction of new laws focusing on aspects such as privacy, fairness, and explainability for recommender systems and AI at large. These concepts are especially crucial in high-risk domains such as recruitment. In recruitment specifically, decisions carry substantial weight, as the outcomes can significantly impact individuals' careers and companies' success. Additionally, there is a need for a multi-stakeholder approach, as these systems are used by job seekers, recruiters, and companies simultaneously, each with its own requirements and expectations. In this paper, I summarize my current research on the topic of explainable, multi-stakeholder job recommender systems and set out a number of future research directions.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2309.05507": {
+            "title": "A Co-design Study for Multi-Stakeholder Job Recommender System Explanations",
+            "authors": "Roan Schellingerhout, Francesco Barile, Nava Tintarev",
+            "first_author": "Roan Schellingerhout",
+            "url": "https://arxiv.org/abs/2309.05507",
+            "pdf_url": "https://arxiv.org/abs/2309.05507",
+            "publish_date": "2023-09-11",
+            "abstract": "Recent legislation proposals have significantly increased the demand for eXplainable Artificial Intelligence (XAI) in many businesses, especially in so-called `high-risk' domains, such as recruitment. Within recruitment, AI has become commonplace, mainly in the form of job recommender systems (JRSs), which try to match candidates to vacancies, and vice versa. However, common XAI techniques often fall short in this domain due to the different levels and types of expertise of the individuals involved, making explanations difficult to generalize. To determine the explanation preferences of the different stakeholder types - candidates, recruiters, and companies - we created and validated a semi-structured interview guide. Using grounded theory, we structurally analyzed the results of these interviews and found that different stakeholder types indeed have strongly differing explanation preferences. Candidates indicated a preference for brief, textual explanations that allow them to quickly judge potential matches. On the other hand, hiring managers preferred visual graph-based explanations that provide a more technical and comprehensive overview at a glance. Recruiters found more exhaustive textual explanations preferable, as those provided them with more talking points to convince both parties of the match. Based on these findings, we describe guidelines on how to design an explanation interface that fulfills the requirements of all three stakeholder types. Furthermore, we provide the validated interview guide, which can assist future research in determining the explanation preferences of different stakeholder types.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2111.13576": {
+            "title": "Job Recommender Systems: A Review",
+            "authors": "Corné de Ruijt, Sandjai Bhulai",
+            "first_author": "Corné de Ruijt",
+            "url": "https://arxiv.org/abs/2111.13576",
+            "pdf_url": "https://arxiv.org/abs/2111.13576",
+            "publish_date": "2021-11-26",
+            "abstract": "This paper provides a review of the job recommender system (JRS) literature published in the past decade (2011-2021). Compared to previous literature reviews, we put more emphasis on contributions that incorporate the temporal and reciprocal nature of job recommendations. Previous studies on JRS suggest that taking such views into account in the design of the JRS can lead to improved model performance. Also, it may lead to a more uniform distribution of candidates over a set of similar jobs. We also consider the literature from the perspective of algorithm fairness. Here we find that this is rarely discussed in the literature, and if it is discussed, many authors wrongly assume that removing the discriminatory feature would be sufficient. With respect to the type of models used in JRS, authors frequently label their method as `hybrid'. Unfortunately, they thereby obscure what these methods entail. Using existing recommender taxonomies, we split this large class of hybrids into subcategories that are easier to analyse. We further find that data availability, and in particular the availability of click data, has a large impact on the choice of method and validation. Last, although the generalizability of JRS across different datasets is infrequently considered, results suggest that error scores may vary across these datasets.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "1608.03333": {
+            "title": "Temporal Learning and Sequence Modeling for a Job Recommender System",
+            "authors": "Kuan Liu, Xing Shi, Anoop Kumar, Linhong Zhu, Prem Natarajan",
+            "first_author": "Kuan Liu",
+            "url": "https://arxiv.org/abs/1608.03333",
+            "pdf_url": "https://arxiv.org/abs/1608.03333",
+            "publish_date": "2016-08-11",
+            "abstract": "We present our solution to the job recommendation task for RecSys Challenge 2016. The main contribution of our work is to combine temporal learning with sequence modeling to capture complex user-item activity patterns to improve job recommendations. First, we propose a time-based ranking model applied to historical observations and a hybrid matrix factorization over time re-weighted interactions. Second, we exploit sequence properties in user-items activities and develop a RNN-based recommendation model. Our solution achieved 5$^{th}$ place in the challenge among more than 100 participants. Notably, the strong performance of our RNN approach shows a promising new direction in employing sequence modeling for recommendation systems.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        }
+    },
+    "Talent Recommendation": {
+        "2605.24155": {
+            "title": "An Interpretable CF-RL-TOPSIS Fusion Model for Skills-Aware Talent Recommendation",
+            "authors": "Özkan Canay",
+            "first_author": "Özkan Canay",
+            "url": "https://arxiv.org/abs/2605.24155",
+            "pdf_url": "https://arxiv.org/abs/2605.24155",
+            "publish_date": "2026-05-22",
+            "abstract": "Effective skills-aware talent recommendation must balance behavioral transition patterns, trajectory-sensitive adaptation, and inspectable occupation-level criteria. Evidence from public benchmarks on how these signals interact, however, remains limited. This study proposes CF-RL-TOPSIS, an interpretable late-fusion model that integrates a transition-aware collaborative branch, a compact reinforcement-style occupation-family bandit, and an entropy-weighted TOPSIS branch constructed from six semantic proxies; the validation-selected fusion coefficients remain auditable. The model is evaluated on two frozen public ICT talent-history benchmarks, JobHop and Karrierewege, using repeated chronological top-5 ranking and paired Wilcoxon tests. On JobHop the full hybrid attains NDCG@5 = 0.3040 +/- 0.0073 and significantly surpasses repeat-last, item Markov, transition-aware collaborative filtering, the CF+TOPSIS hybrid, GRU4Rec, and SASRec (p <= 0.0039 across planned comparisons). On Karrierewege the hybrid remains competitive but does not significantly exceed the strongest Markov baseline, revealing a persistence-dominated setting in which the bandit branch appropriately shrinks to near-zero weight. Proxy-sensitivity, family-level deep Q-network, and runtime checks support this interpretation, and a worked user-level case shows how branch scores, criterion weights, and rank shifts can be inspected for an individual recommendation. The contribution is not a benchmark-agnostic superiority claim, but a reproducible account of the conditions under which transparent late fusion adds value beyond simple continuation heuristics. In semantically rich, non-saturating talent-history regimes the three branches reinforce one another; in persistence-dominated regimes the same architecture remains competitive through its collaborative backbone, with the adaptive branch correctly inactive.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.02200": {
+            "title": "Towards Position-Robust Talent Recommendation via Large Language Models",
+            "authors": "Silin Du, Hongyan Liu",
+            "first_author": "Silin Du",
+            "url": "https://arxiv.org/abs/2604.02200",
+            "pdf_url": "https://arxiv.org/abs/2604.02200",
+            "publish_date": "2026-04-02",
+            "abstract": "Talent recruitment is a critical, yet costly process for many industries, with high recruitment costs and long hiring cycles. Existing talent recommendation systems increasingly adopt large language models (LLMs) due to their remarkable language understanding capabilities. However, most prior approaches follow a pointwise paradigm, which requires LLMs to repeatedly process some text and fails to capture the relationships among candidates in the list, resulting in higher token consumption and suboptimal recommendations. Besides, LLMs exhibit position bias and the lost-in-the-middle issue when answering multiple-choice questions and processing multiple long documents. To address these issues, we introduce an implicit strategy to utilize LLM's potential output for the recommendation task and propose L3TR, a novel framework for listwise talent recommendation with LLMs. In this framework, we propose a block attention mechanism and a local positional encoding method to enhance inter-document processing and mitigate the position bias and concurrent token bias issue. We also introduce an ID sampling method for resolving the inconsistency between candidate set sizes in the training phase and the inference phase. We design evaluation methods to detect position bias and token bias and training-free debiasing methods. Extensive experiments on two real-world datasets validated the effectiveness of L3TR, showing consistent improvements over existing baselines.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2508.20328": {
+            "title": "Multi-View Graph Convolution Network for Internal Talent Recommendation Based on Enterprise Emails",
+            "authors": "Soo Hyun Kim, Jang-Hyun Kim",
+            "first_author": "Soo Hyun Kim",
+            "url": "https://arxiv.org/abs/2508.20328",
+            "pdf_url": "https://arxiv.org/abs/2508.20328",
+            "publish_date": "2025-08-28",
+            "abstract": "Internal talent recommendation is a critical strategy for organizational continuity, yet conventional approaches suffer from structural limitations, often overlooking qualified candidates by relying on the narrow perspective of a few managers. To address this challenge, we propose a novel framework that models two distinct dimensions of an employee's position fit from email data: WHAT they do (semantic similarity of tasks) and HOW they work (structural characteristics of their interactions and collaborations). These dimensions are represented as independent graphs and adaptively fused using a Dual Graph Convolutional Network (GCN) with a gating mechanism. Experiments show that our proposed gating-based fusion model significantly outperforms other fusion strategies and a heuristic baseline, achieving a top performance of 40.9% on Hit@100. Importantly, it is worth noting that the model demonstrates high interpretability by learning distinct, context-aware fusion strategies for different job families. For example, it learned to prioritize relational (HOW) data for 'sales and marketing' job families while applying a balanced approach for 'research' job families. This research offers a quantitative and comprehensive framework for internal talent discovery, minimizing the risk of candidate omission inherent in traditional methods. Its primary contribution lies in its ability to empirically determine the optimal fusion ratio between task alignment (WHAT) and collaborative patterns (HOW), which is required for employees to succeed in the new positions, thereby offering important practical implications.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2508.00908": {
+            "title": "Mapping Stakeholder Needs to Multi-Sided Fairness in Candidate Recommendation for Algorithmic Hiring",
+            "authors": "Mesut Kaya, Toine Bogers",
+            "first_author": "Mesut Kaya",
+            "url": "https://arxiv.org/abs/2508.00908",
+            "pdf_url": "https://arxiv.org/abs/2508.00908",
+            "publish_date": "2025-07-29",
+            "abstract": "Already before the enactment of the EU AI Act, candidate or job recommendation for algorithmic hiring -- semi-automatically matching CVs to job postings -- was used as an example of a high-risk application where unfair treatment could result in serious harms to job seekers. Recommending candidates to jobs or jobs to candidates, however, is also a fitting example of a multi-stakeholder recommendation problem. In such multi-stakeholder systems, the end user is not the only party whose interests should be considered when generating recommendations. In addition to job seekers, other stakeholders -- such as recruiters, organizations behind the job postings, and the recruitment agency itself -- are also stakeholders in this and deserve to have their perspectives included in the design of relevant fairness metrics. Nevertheless, past analyses of fairness in algorithmic hiring have been restricted to single-side fairness, ignoring the perspectives of the other stakeholders. In this paper, we address this gap and present a multi-stakeholder approach to fairness in a candidate recommender system that recommends relevant candidate CVs to human recruiters in a human-in-the-loop algorithmic hiring scenario. We conducted semi-structured interviews with 40 different stakeholders (job seekers, companies, recruiters, and other job portal employees). We used these interviews to explore their lived experiences of unfairness in hiring, co-design definitions of fairness as well as metrics that might capture these experiences. Finally, we attempt to reconcile and map these different (and sometimes conflicting) perspectives and definitions to existing (categories of) fairness metrics that are relevant for our candidate recommendation scenario.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2211.07297": {
+            "title": "Talent Recommendation on LinkedIn User Profiles",
+            "authors": "Yuzhou Peng",
+            "first_author": "Yuzhou Peng",
+            "url": "https://arxiv.org/abs/2211.07297",
+            "pdf_url": "https://arxiv.org/abs/2211.07297",
+            "publish_date": "2022-11-14",
+            "abstract": "With the increasing amount of information on the Internet, recommender systems are becoming increasingly crucial in supporting people to find and explore relevant content. This is also true in the online recruitment space, with websites such as LinkedIn, Indeed.com, and Monster.com all using recommender systems. In online recruitment, it can often be challenging for companies to find suitable candidates with appropriate skills because of the huge volume of user profiles available. Identifying users which satisfy a range of different employer needs is also a difficult task. Thus, effective matching of user-profiles and jobs is becoming crucial for companies. This research project applies a wide range of recommendation techniques to the task of user profile recommendation. Extensive experiments are conducted on a large-scale real-world LinkedIn dataset to evaluate their performance, with the aim of identifying the most suitable approach in this particular recommendation scenario.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        }
+    },
+    "Person-Job Fit": {
+        "2605.09760": {
+            "title": "ConFit v3: Improving Resume-Job Matching with LLM-based Re-Ranking",
+            "authors": "Xiao Yu, Ruize Xu, Chengyuan Xue, Junyu Chen, Matthew So, Shijun Ma, Bo Liu, Xiangye Liang, Zhou Yu",
+            "first_author": "Xiao Yu",
+            "url": "https://arxiv.org/abs/2605.09760",
+            "pdf_url": "https://arxiv.org/abs/2605.09760",
+            "publish_date": "2026-05-10",
+            "abstract": "A reliable resume-job matching system helps a company find suitable candidates from a pool of resumes and helps a job seeker find relevant jobs from a list of job posts. While recent advances in embedding-based methods such as ConFit and ConFit v2 can efficiently retrieve candidates at scale, the lack of controllability and explainability limits their real-world adaptations. LLM-based re-rankers can address these limitations through reasoning, but existing training recipes are developed on short-document benchmarks and do not account for noise in real-world recruiting data. In this work, we first conduct a systematic analysis over the LLM re-ranker training pipeline for person-job fit, covering inference algorithm design, RL algorithm selection, data processing, and SFT distillation. We find that using multi-pass re-ranking, training with listwise RL objectives, removing noisy samples, and distilling from a stronger LLM before RL significantly improves re-ranking performance. We then aggregate these findings to train ConFit v3 with Qwen3-8B and Qwen3-32B on real-world person-job fit datasets, and find significant improvements over existing best person-job fit systems as well as strong LLMs such as GPT-5 and Claude Opus-4.5. We hope our findings provide useful insights for future research on adapting LLM-based re-rankers to person-job fit systems.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2605.01715": {
+            "title": "Strategy-proof and Efficient Job Matching with Participation Constraints",
+            "authors": "Sushil Bikhchandani, Debasis Mishra",
+            "first_author": "Sushil Bikhchandani",
+            "url": "https://arxiv.org/abs/2605.01715",
+            "pdf_url": "https://arxiv.org/abs/2605.01715",
+            "publish_date": "2026-05-03",
+            "abstract": "We study the design of strategy-proof and efficient mechanisms satisfying participation constraints in the job-matching problem. Each firm can hire multiple workers and each worker can be employed at only one firm. While firm utilities over subsets of workers are common knowledge, worker disutilities for working at each firm are private information. The VCG mechanism is the unique mechanism that is strategy-proof, efficient, and individually rational for workers; however, it may not be individual rational for firms. We show that the VCG mechanism is individually rational for firms if and only if firm utilities satisfy a condition called weak substitutes. We then strengthen participation constraints of firms to {\\sl strong individual rationality}, which requires that each firm has no incentive to fire some of the workers assigned to it. The VCG mechanism is strongly individual rational if and only if firm utilities satisfy submodularity.",
+            "primary_category": "econ.TH",
+            "code_url": "null"
+        },
+        "2603.14558": {
+            "title": "JobMatchAI An Intelligent Job Matching Platform Using Knowledge Graphs, Semantic Search and Explainable AI",
+            "authors": "Mayank Vyas, Abhijit Chakraborty, Vivek Gupta",
+            "first_author": "Mayank Vyas",
+            "url": "https://arxiv.org/abs/2603.14558",
+            "pdf_url": "https://arxiv.org/abs/2603.14558",
+            "publish_date": "2026-03-15",
+            "abstract": "Recruiters and job seekers rely on search systems to navigate labor markets, making candidate matching engines critical for hiring outcomes. Most systems act as keyword filters, failing to handle skill synonyms and nonlinear careers, resulting in missed candidates and opaque match scores. We introduce JobMatchAI, a production-ready system integrating Transformer embeddings, skill knowledge graphs, and interpretable reranking. Our system optimizes utility across skill fit, experience, location, salary, and company preferences, providing factor-wise explanations through resume-driven search workflows. We release JobSearch-XS benchmark and a hybrid retrieval stack combining BM25, knowledge graph and semantic components to evaluate skill generalization. We assess system performance on JobSearch-XS across retrieval tasks, provide a demo video, a hosted website and installable package.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2601.10321": {
+            "title": "An Efficient Long-Context Ranking Architecture With Calibrated LLM Distillation: Application to Person-Job Fit",
+            "authors": "Warren Jouanneau, Emma Jouffroy, Marc Palyart",
+            "first_author": "Warren Jouanneau",
+            "url": "https://arxiv.org/abs/2601.10321",
+            "pdf_url": "https://arxiv.org/abs/2601.10321",
+            "publish_date": "2026-01-15",
+            "abstract": "Finding the most relevant person for a job proposal in real time is challenging, especially when resumes are long, structured, and multilingual. In this paper, we propose a re-ranking model based on a new generation of late cross-attention architecture, that decomposes both resumes and project briefs to efficiently handle long-context inputs with minimal computational overhead. To mitigate historical data biases, we use a generative large language model (LLM) as a teacher, generating fine-grained, semantically grounded supervision. This signal is distilled into our student model via an enriched distillation loss function. The resulting model produces skill-fit scores that enable consistent and interpretable person-job matching. Experiments on relevance, ranking, and calibration metrics demonstrate that our approach outperforms state-of-the-art baselines.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2512.03195": {
+            "title": "Enhancing Job Matching: Occupation, Skill and Qualification Linking with the ESCO and EQF taxonomies",
+            "authors": "Stylianos Saroglou, Konstantinos Diamantaras, Francesco Preta, Marina Delianidi, Apostolos Benisis, Christian Johannes Meyer",
+            "first_author": "Stylianos Saroglou",
+            "url": "https://arxiv.org/abs/2512.03195",
+            "pdf_url": "https://arxiv.org/abs/2512.03195",
+            "publish_date": "2025-12-02",
+            "abstract": "This study investigates the potential of language models to improve the classification of labor market information by linking job vacancy texts to two major European frameworks: the European Skills, Competences, Qualifications and Occupations (ESCO) taxonomy and the European Qualifications Framework (EQF). We examine and compare two prominent methodologies from the literature: Sentence Linking and Entity Linking. In support of ongoing research, we release an open-source tool, incorporating these two methodologies, designed to facilitate further work on labor classification and employment discourse. To move beyond surface-level skill extraction, we introduce two annotated datasets specifically aimed at evaluating how occupations and qualifications are represented within job vacancy texts. Additionally, we examine different ways to utilize generative large language models for this task. Our findings contribute to advancing the state of the art in job entity extraction and offer computational infrastructure for examining work, skills, and labor market narratives in a digitally mediated economy. Our code is made publicly available: https://github.com/tabiya-tech/tabiya-livelihoods-classifier",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2511.02537": {
+            "title": "Smart-Hiring: An Explainable end-to-end Pipeline for CV Information Extraction and Job Matching",
+            "authors": "Kenza Khelkhal, Dihia Lanasri",
+            "first_author": "Kenza Khelkhal",
+            "url": "https://arxiv.org/abs/2511.02537",
+            "pdf_url": "https://arxiv.org/abs/2511.02537",
+            "publish_date": "2025-11-04",
+            "abstract": "Hiring processes often involve the manual screening of hundreds of resumes for each job, a task that is time and effort consuming, error-prone, and subject to human bias. This paper presents Smart-Hiring, an end-to-end Natural Language Processing (NLP) pipeline de- signed to automatically extract structured information from unstructured resumes and to semantically match candidates with job descriptions. The proposed system combines document parsing, named-entity recognition, and contextual text embedding techniques to capture skills, experience, and qualifications. Using advanced NLP technics, Smart-Hiring encodes both resumes and job descriptions in a shared vector space to compute similarity scores between candidates and job postings. The pipeline is modular and explainable, allowing users to inspect extracted entities and matching rationales. Experiments were conducted on a real-world dataset of resumes and job descriptions spanning multiple professional domains, demonstrating the robustness and feasibility of the proposed approach. The system achieves competitive matching accuracy while preserving a high degree of interpretability and transparency in its decision process. This work introduces a scalable and practical NLP frame- work for recruitment analytics and outlines promising directions for bias mitigation, fairness-aware modeling, and large-scale deployment of data-driven hiring solutions.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2509.09690": {
+            "title": "Powering Job Search at Scale: LLM-Enhanced Query Understanding in Job Matching Systems",
+            "authors": "Ping Liu, Jianqiang Shen, Qianqi Shen, Chunnan Yao, Kevin Kao, Dan Xu, Rajat Arora, Baofen Zheng, Caleb Johnson, Liangjie Hong, Jingwei Wu, Wenjing Zhang",
+            "first_author": "Ping Liu",
+            "url": "https://arxiv.org/abs/2509.09690",
+            "pdf_url": "https://arxiv.org/abs/2509.09690",
+            "publish_date": "2025-08-19",
+            "abstract": "Query understanding is essential in modern relevance systems, where user queries are often short, ambiguous, and highly context-dependent. Traditional approaches often rely on multiple task-specific Named Entity Recognition models to extract structured facets as seen in job search applications. However, this fragmented architecture is brittle, expensive to maintain, and slow to adapt to evolving taxonomies and language patterns. In this paper, we introduce a unified query understanding framework powered by a Large Language Model (LLM), designed to address these limitations. Our approach jointly models the user query and contextual signals such as profile attributes to generate structured interpretations that drive more accurate and personalized recommendations. The framework improves relevance quality in online A/B testing while significantly reducing system complexity and operational overhead. The results demonstrate that our solution provides a scalable and adaptable foundation for query understanding in dynamic web applications.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2508.11713": {
+            "title": "A Production-Ready Machine Learning System for Inclusive Employment: Requirements Engineering and Implementation of AI-Driven Disability Job Matching Platform",
+            "authors": "Oleksandr Kuznetsov, Michele Melchiori, Emanuele Frontoni, Marco Arnesano",
+            "first_author": "Oleksandr Kuznetsov",
+            "url": "https://arxiv.org/abs/2508.11713",
+            "pdf_url": "https://arxiv.org/abs/2508.11713",
+            "publish_date": "2025-08-14",
+            "abstract": "Employment inclusion of people with disabilities remains critically low in Italy, with only 3.5% employed nationally despite mandatory hiring quotas. Traditional manual matching processes require 30-60 minutes per candidate, creating bottlenecks that limit service capacity. Our goal is to develop and validate a production-ready machine learning system for disability employment matching that integrates social responsibility requirements while maintaining human oversight in decision-making. We employed participatory requirements engineering with Centro per l'Impiego di Villafranca di Verona professionals. The system implements a seven-model ensemble with parallel hyperparameter optimization using Optuna. Multi-dimensional scoring combines semantic compatibility, geographic distance, and employment readiness assessment. The system achieves 90.1% F1-score and sub-100ms response times while processing 500,000 candidate-company combinations in under 10 minutes. Expert validation confirms 60-100% capacity increases for employment centers. The LightGBM ensemble shows optimal performance with 94.6-second training time. Thus, advanced AI systems can successfully integrate social responsibility requirements without compromising technical performance. The participatory design methodology provides a replicable framework for developing ethical AI applications in sensitive social domains. The complete system, including source code, documentation, and deployment guides, is openly available to facilitate replication and adaptation by other regions and countries facing similar challenges.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2507.09797": {
+            "title": "A Scalable and Efficient Signal Integration System for Job Matching",
+            "authors": "Ping Liu, Rajat Arora, Xiao Shi, Benjamin Le, Qianqi Shen, Jianqiang Shen, Chengming Jiang, Nikita Zhiltsov, Priya Bannur, Yidan Zhu, Liming Dong, Haichao Wei, Qi Guo, Luke Simon, Liangjie Hong, Wenjing Zhang",
+            "first_author": "Ping Liu",
+            "url": "https://arxiv.org/abs/2507.09797",
+            "pdf_url": "https://arxiv.org/abs/2507.09797",
+            "publish_date": "2025-07-13",
+            "abstract": "LinkedIn, one of the world's largest platforms for professional networking and job seeking, encounters various modeling challenges in building recommendation systems for its job matching product, including cold-start, filter bubbles, and biases affecting candidate-job matching. To address these, we developed the STAR (Signal Integration for Talent And Recruiters) system, leveraging the combined strengths of Large Language Models (LLMs) and Graph Neural Networks (GNNs). LLMs excel at understanding textual data, such as member profiles and job postings, while GNNs capture intricate relationships and mitigate cold-start issues through network effects. STAR integrates diverse signals by uniting LLM and GNN capabilities with industrial-scale paradigms including adaptive sampling and version management. It provides an end-to-end solution for developing and deploying embeddings in large-scale recommender systems. Our key contributions include a robust methodology for building embeddings in industrial applications, a scalable GNN-LLM integration for high-performing recommendations, and practical insights for real-world model deployment.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2502.12361": {
+            "title": "ConFit v2: Improving Resume-Job Matching using Hypothetical Resume Embedding and Runner-Up Hard-Negative Mining",
+            "authors": "Xiao Yu, Ruize Xu, Chengyuan Xue, Jinzhong Zhang, Xu Ma, Zhou Yu",
+            "first_author": "Xiao Yu",
+            "url": "https://arxiv.org/abs/2502.12361",
+            "pdf_url": "https://arxiv.org/abs/2502.12361",
+            "publish_date": "2025-02-17",
+            "abstract": "A reliable resume-job matching system helps a company recommend suitable candidates from a pool of resumes and helps a job seeker find relevant jobs from a list of job posts. However, since job seekers apply only to a few jobs, interaction labels in resume-job datasets are sparse. We introduce ConFit v2, an improvement over ConFit to tackle this sparsity problem. We propose two techniques to enhance the encoder's contrastive training process: augmenting job data with hypothetical reference resume generated by a large language model; and creating high-quality hard negatives from unlabeled resume/job pairs using a novel hard-negative mining strategy. We evaluate ConFit v2 on two real-world datasets and demonstrate that it outperforms ConFit and prior methods (including BM25 and OpenAI text-embedding-003), achieving an average absolute improvement of 13.8% in recall and 17.5% in nDCG across job-ranking and resume-ranking tasks.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2410.22103": {
+            "title": "Joint Extraction and Classification of Danish Competences for Job Matching",
+            "authors": "Qiuchi Li, Christina Lioma",
+            "first_author": "Qiuchi Li",
+            "url": "https://arxiv.org/abs/2410.22103",
+            "pdf_url": "https://arxiv.org/abs/2410.22103",
+            "publish_date": "2024-10-29",
+            "abstract": "The matching of competences, such as skills, occupations or knowledges, is a key desiderata for candidates to be fit for jobs. Automatic extraction of competences from CVs and Jobs can greatly promote recruiters' productivity in locating relevant candidates for job vacancies. This work presents the first model that jointly extracts and classifies competence from Danish job postings. Different from existing works on skill extraction and skill classification, our model is trained on a large volume of annotated Danish corpora and is capable of extracting a wide range of Danish competences, including skills, occupations and knowledges of different categories. More importantly, as a single BERT-like architecture for joint extraction and classification, our model is lightweight and efficient at inference. On a real-scenario job matching dataset, our model beats the state-of-the-art models in the overall performance of Danish competence extraction and classification, and saves over 50% time at inference.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2406.01886": {
+            "title": "Optimal Wage Band for Job Matching with Signaling",
+            "authors": "Seungjin Han, Alex Sam, Youngki Shin",
+            "first_author": "Seungjin Han",
+            "url": "https://arxiv.org/abs/2406.01886",
+            "pdf_url": "https://arxiv.org/abs/2406.01886",
+            "publish_date": "2024-06-04",
+            "abstract": "We study an optimal wage band problem in a competitive matching labor market where education signals worker ability. We prove uniqueness of the competitive signaling equilibrium under a general class of utility and profit functions and show that the optimal wage band problem is isomorphic to a simpler optimal ability threshold problem. Using a parametric model, we analyze how wage bands improve welfare relative to no intervention. Our results highlight novel mechanisms driven by asymmetric information, contrasting with existing literature. The framework is broadly applicable to settings where agents invest in costly signals under asymmetric information in competitive matching environments.",
+            "primary_category": "econ.TH",
+            "code_url": "null"
+        },
+        "2402.13435": {
+            "title": "Learning to Retrieve for Job Matching",
+            "authors": "Jianqiang Shen, Yuchin Juan, Shaobo Zhang, Ping Liu, Wen Pu, Sriram Vasudevan, Qingquan Song, Fedor Borisyuk, Kay Qianqi Shen, Haichao Wei, Yunxiang Ren, Yeou S. Chiou, Sicong Kuang, Yuan Yin, Ben Zheng, Muchen Wu, Shaghayegh Gharghabi, Xiaoqing Wang, Huichao Xue, Qi Guo, Daniel Hewlett, Luke Simon, Liangjie Hong, Wenjing Zhang",
+            "first_author": "Jianqiang Shen",
+            "url": "https://arxiv.org/abs/2402.13435",
+            "pdf_url": "https://arxiv.org/abs/2402.13435",
+            "publish_date": "2024-02-21",
+            "abstract": "Web-scale search systems typically tackle the scalability challenge with a two-step paradigm: retrieval and ranking. The retrieval step, also known as candidate selection, often involves extracting standardized entities, creating an inverted index, and performing term matching for retrieval. Such traditional methods require manual and time-consuming development of query models. In this paper, we discuss applying learning-to-retrieve technology to enhance LinkedIns job search and recommendation systems. In the realm of promoted jobs, the key objective is to improve the quality of applicants, thereby delivering value to recruiter customers. To achieve this, we leverage confirmed hire data to construct a graph that evaluates a seeker's qualification for a job, and utilize learned links for retrieval. Our learned model is easy to explain, debug, and adjust. On the other hand, the focus for organic jobs is to optimize seeker engagement. We accomplished this by training embeddings for personalized retrieval, fortified by a set of rules derived from the categorization of member feedback. In addition to a solution based on a conventional inverted index, we developed an on-GPU solution capable of supporting both KNN and term matching efficiently.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2402.13430": {
+            "title": "LinkSAGE: Optimizing Job Matching Using Graph Neural Networks",
+            "authors": "Ping Liu, Haichao Wei, Xiaochen Hou, Jianqiang Shen, Shihai He, Kay Qianqi Shen, Zhujun Chen, Fedor Borisyuk, Daniel Hewlett, Liang Wu, Srikant Veeraraghavan, Alex Tsun, Chengming Jiang, Wenjing Zhang",
+            "first_author": "Ping Liu",
+            "url": "https://arxiv.org/abs/2402.13430",
+            "pdf_url": "https://arxiv.org/abs/2402.13430",
+            "publish_date": "2024-02-20",
+            "abstract": "We present LinkSAGE, an innovative framework that integrates Graph Neural Networks (GNNs) into large-scale personalized job matching systems, designed to address the complex dynamics of LinkedIns extensive professional network. Our approach capitalizes on a novel job marketplace graph, the largest and most intricate of its kind in industry, with billions of nodes and edges. This graph is not merely extensive but also richly detailed, encompassing member and job nodes along with key attributes, thus creating an expansive and interwoven network. A key innovation in LinkSAGE is its training and serving methodology, which effectively combines inductive graph learning on a heterogeneous, evolving graph with an encoder-decoder GNN model. This methodology decouples the training of the GNN model from that of existing Deep Neural Nets (DNN) models, eliminating the need for frequent GNN retraining while maintaining up-to-date graph signals in near realtime, allowing for the effective integration of GNN insights through transfer learning. The subsequent nearline inference system serves the GNN encoder within a real-world setting, significantly reducing online latency and obviating the need for costly real-time GNN infrastructure. Validated across multiple online A/B tests in diverse product scenarios, LinkSAGE demonstrates marked improvements in member engagement, relevance matching, and member retention, confirming its generalizability and practical impact.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2401.16349": {
+            "title": "ConFit: Improving Resume-Job Matching using Data Augmentation and Contrastive Learning",
+            "authors": "Xiao Yu, Jinzhong Zhang, Zhou Yu",
+            "first_author": "Xiao Yu",
+            "url": "https://arxiv.org/abs/2401.16349",
+            "pdf_url": "https://arxiv.org/abs/2401.16349",
+            "publish_date": "2024-01-29",
+            "abstract": "A reliable resume-job matching system helps a company find suitable candidates from a pool of resumes, and helps a job seeker find relevant jobs from a list of job posts. However, since job seekers apply only to a few jobs, interaction records in resume-job datasets are sparse. Different from many prior work that use complex modeling techniques, we tackle this sparsity problem using data augmentations and a simple contrastive learning approach. ConFit first creates an augmented resume-job dataset by paraphrasing specific sections in a resume or a job post. Then, ConFit uses contrastive learning to further increase training samples from $B$ pairs per batch to $O(B^2)$ per batch. We evaluate ConFit on two real-world datasets and find it outperforms prior methods (including BM25 and OpenAI text-ada-002) by up to 19% and 31% absolute in nDCG@10 for ranking jobs and ranking resumes, respectively.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2401.07525": {
+            "title": "TAROT: A Hierarchical Framework with Multitask Co-Pretraining on Semi-Structured Data towards Effective Person-Job Fit",
+            "authors": "Yihan Cao, Xu Chen, Lun Du, Hao Chen, Qiang Fu, Shi Han, Yushu Du, Yanbin Kang, Guangming Lu, Zi Li",
+            "first_author": "Yihan Cao",
+            "url": "https://arxiv.org/abs/2401.07525",
+            "pdf_url": "https://arxiv.org/abs/2401.07525",
+            "publish_date": "2024-01-15",
+            "abstract": "Person-job fit is an essential part of online recruitment platforms in serving various downstream applications like Job Search and Candidate Recommendation. Recently, pretrained large language models have further enhanced the effectiveness by leveraging richer textual information in user profiles and job descriptions apart from user behavior features and job metadata. However, the general domain-oriented design struggles to capture the unique structural information within user profiles and job descriptions, leading to a loss of latent semantic correlations. We propose TAROT, a hierarchical multitask co-pretraining framework, to better utilize structural and semantic information for informative text embeddings. TAROT targets semi-structured text in profiles and jobs, and it is co-pretained with multi-grained pretraining tasks to constrain the acquired semantic information at each level. Experiments on a real-world LinkedIn dataset show significant performance improvements, proving its effectiveness in person-job fit tasks.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2401.00010": {
+            "title": "Professional Network Matters: Connections Empower Person-Job Fit",
+            "authors": "Hao Chen, Lun Du, Yuxuan Lu, Qiang Fu, Xu Chen, Shi Han, Yanbin Kang, Guangming Lu, Zi Li",
+            "first_author": "Hao Chen",
+            "url": "https://arxiv.org/abs/2401.00010",
+            "pdf_url": "https://arxiv.org/abs/2401.00010",
+            "publish_date": "2023-12-19",
+            "abstract": "Online recruitment platforms typically employ Person-Job Fit models in the core service that automatically match suitable job seekers with appropriate job positions. While existing works leverage historical or contextual information, they often disregard a crucial aspect: job seekers' social relationships in professional networks. This paper emphasizes the importance of incorporating professional networks into the Person-Job Fit model. Our innovative approach consists of two stages: (1) defining a Workplace Heterogeneous Information Network (WHIN) to capture heterogeneous knowledge, including professional connections and pre-training representations of various entities using a heterogeneous graph neural network; (2) designing a Contextual Social Attention Graph Neural Network (CSAGNN) that supplements users' missing information with professional connections' contextual information. We introduce a job-specific attention mechanism in CSAGNN to handle noisy professional networks, leveraging pre-trained entity representations from WHIN. We demonstrate the effectiveness of our approach through experimental evaluations conducted across three real-world recruitment datasets from LinkedIn, showing superior performance compared to baseline models.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2311.14729": {
+            "title": "App for Resume-Based Job Matching with Speech Interviews and Grammar Analysis: A Review",
+            "authors": "Tanmay Kulkarni, Yuvraj Pardeshi, Yash Shah, Vaishnvi Sakat, Sapana Bhirud",
+            "first_author": "Tanmay Kulkarni",
+            "url": "https://arxiv.org/abs/2311.14729",
+            "pdf_url": "https://arxiv.org/abs/2311.14729",
+            "publish_date": "2023-11-20",
+            "abstract": "Through the advancement in natural language processing (NLP), specifically in speech recognition, fully automated complex systems functioning on voice input have started proliferating in areas such as home automation. These systems have been termed Automatic Speech Recognition Systems (ASR). In this review paper, we explore the feasibility of an end-to-end system providing speech and text based natural language processing for job interview preparation as well as recommendation of relevant job postings. We also explore existing recommender-based systems and note their limitations. This literature review would help us identify the approaches and limitations of the various similar use-cases of NLP technology for our upcoming project.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2308.13899": {
+            "title": "Self-Enforced Job Matching",
+            "authors": "Ce Liu, Ziwei Wang, Hanzhe Zhang",
+            "first_author": "Ce Liu",
+            "url": "https://arxiv.org/abs/2308.13899",
+            "pdf_url": "https://arxiv.org/abs/2308.13899",
+            "publish_date": "2023-08-26",
+            "abstract": "The classic two-sided many-to-one job matching model assumes that firms treat workers as substitutes and workers ignore colleagues when choosing where to work. Relaxing these assumptions may lead to nonexistence of stable matchings. However, matching is often not a static allocation, but an ongoing process with long-lived firms and short-lived workers. We show that stability is always guaranteed dynamically when firms are patient, even with complementarities in firm technologies and peer effects in worker preferences. While no-poaching agreements are anti-competitive, they can maintain dynamic stability in markets that are otherwise unstable, which may contribute to their prevalence in labor markets.",
+            "primary_category": "econ.TH",
+            "code_url": "null"
+        },
+        "2304.04022": {
+            "title": "A Reinforcement Learning-assisted Genetic Programming Algorithm for Team Formation Problem Considering Person-Job Matching",
+            "authors": "Yangyang Guo, Hao Wang, Lei He, Witold Pedrycz, P. N. Suganthan, Yanjie Song",
+            "first_author": "Yangyang Guo",
+            "url": "https://arxiv.org/abs/2304.04022",
+            "pdf_url": "https://arxiv.org/abs/2304.04022",
+            "publish_date": "2023-04-08",
+            "abstract": "An efficient team is essential for the company to successfully complete new projects. To solve the team formation problem considering person-job matching (TFP-PJM), a 0-1 integer programming model is constructed, which considers both person-job matching and team members' willingness to communicate on team efficiency, with the person-job matching score calculated using intuitionistic fuzzy numbers. Then, a reinforcement learning-assisted genetic programming algorithm (RL-GP) is proposed to enhance the quality of solutions. The RL-GP adopts the ensemble population strategies. Before the population evolution at each generation, the agent selects one from four population search modes according to the information obtained, thus realizing a sound balance of exploration and exploitation. In addition, surrogate models are used in the algorithm to evaluate the formation plans generated by individuals, which speeds up the algorithm learning process. Afterward, a series of comparison experiments are conducted to verify the overall performance of RL-GP and the effectiveness of the improved strategies within the algorithm. The hyper-heuristic rules obtained through efficient learning can be utilized as decision-making aids when forming project teams. This study reveals the advantages of reinforcement learning methods, ensemble strategies, and the surrogate model applied to the GP framework. The diversity and intelligent selection of search patterns along with fast adaptation evaluation, are distinct features that enable RL-GP to be deployed in real-world enterprise environments.",
+            "primary_category": "cs.NE",
+            "code_url": "null"
+        },
+        "2208.08612": {
+            "title": "Modeling Two-Way Selection Preference for Person-Job Fit",
+            "authors": "Chen Yang, Yupeng Hou, Yang Song, Tao Zhang, Ji-Rong Wen, Wayne Xin Zhao",
+            "first_author": "Chen Yang",
+            "url": "https://arxiv.org/abs/2208.08612",
+            "pdf_url": "https://arxiv.org/abs/2208.08612",
+            "publish_date": "2022-08-18",
+            "abstract": "Person-job fit is the core technique of online recruitment platforms, which can improve the efficiency of recruitment by accurately matching the job positions with the job seekers. Existing works mainly focus on modeling the unidirectional process or overall matching. However, recruitment is a two-way selection process, which means that both candidate and employer involved in the interaction should meet the expectation of each other, instead of unilateral satisfaction. In this paper, we propose a dual-perspective graph representation learning approach to model directed interactions between candidates and jobs. To model the two-way selection preference from the dual-perspective of job seekers and employers, we incorporate two different nodes for each candidate (or job) and characterize both successful matching and failed matching via a unified dual-perspective interaction graph. To learn dual-perspective node representations effectively, we design an effective optimization algorithm, which involves a quadruple-based loss and a dual-perspective contrastive learning loss. Extensive experiments on three large real-world recruitment datasets have shown the effectiveness of our approach.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2206.09116": {
+            "title": "Person-job fit estimation from candidate profile and related recruitment history with co-attention neural networks",
+            "authors": "Ziyang Wang, Wei Wei, Chenwei Xu, Jun Xu, Xian-Ling Mao",
+            "first_author": "Ziyang Wang",
+            "url": "https://arxiv.org/abs/2206.09116",
+            "pdf_url": "https://arxiv.org/abs/2206.09116",
+            "publish_date": "2022-06-18",
+            "abstract": "Existing online recruitment platforms depend on automatic ways of conducting the person-job fit, whose goal is matching appropriate job seekers with job positions. Intuitively, the previous successful recruitment records contain important information, which should be helpful for the current person-job fit. Existing studies on person-job fit, however, mainly focus on calculating the similarity between the candidate resumes and the job postings on the basis of their contents, without taking the recruiters' experience (i.e., historical successful recruitment records) into consideration. In this paper, we propose a novel neural network approach for person-job fit, which estimates person-job fit from candidate profile and related recruitment history with co-attention neural networks (named PJFCANN). Specifically, given a target resume-job post pair, PJFCANN generates local semantic representations through co-attention neural networks and global experience representations via graph neural networks. The final matching degree is calculated by combining these two representations. In this way, the historical successful recruitment records are introduced to enrich the features of resumes and job postings and strengthen the current matching process. Extensive experiments conducted on a large-scale recruitment dataset verify the effectiveness of PJFCANN compared with several state-of-the-art baselines. The codes are released at: https://github.com/CCIIPLab/PJFCANN.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2203.14232": {
+            "title": "Leveraging Search History for Improving Person-Job Fit",
+            "authors": "Yupeng Hou, Xingyu Pan, Wayne Xin Zhao, Shuqing Bian, Yang Song, Tao Zhang, Ji-Rong Wen",
+            "first_author": "Yupeng Hou",
+            "url": "https://arxiv.org/abs/2203.14232",
+            "pdf_url": "https://arxiv.org/abs/2203.14232",
+            "publish_date": "2022-03-27",
+            "abstract": "As the core technique of online recruitment platforms, person-job fit can improve hiring efficiency by accurately matching job positions with qualified candidates. However, existing studies mainly focus on the recommendation scenario, while neglecting another important channel for linking positions with job seekers, i.e. search. Intuitively, search history contains rich user behavior in job seeking, reflecting important evidence for job intention of users. In this paper, we present a novel Search History enhanced Person-Job Fit model, named as SHPJF. To utilize both text content from jobs/resumes and search histories from users, we propose two components with different purposes. For text matching component, we design a BERT-based text encoder for capturing the semantic interaction between resumes and job descriptions. For intention modeling component, we design two kinds of intention modeling approaches based on the Transformer architecture, either based on the click sequence or query text sequence. To capture underlying job intentions, we further propose an intention clustering technique to identify and summarize the major intentions from search logs. Extensive experiments on a large real-world recruitment dataset have demonstrated the effectiveness of our approach.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2006.07017": {
+            "title": "Learning Effective Representations for Person-Job Fit by Feature Fusion",
+            "authors": "Junshu Jiang, Songyun Ye, Wei Wang, Jingran Xu, Xiaosheng Luo",
+            "first_author": "Junshu Jiang",
+            "url": "https://arxiv.org/abs/2006.07017",
+            "pdf_url": "https://arxiv.org/abs/2006.07017",
+            "publish_date": "2020-06-12",
+            "abstract": "Person-job fit is to match candidates and job posts on online recruitment platforms using machine learning algorithms. The effectiveness of matching algorithms heavily depends on the learned representations for the candidates and job posts. In this paper, we propose to learn comprehensive and effective representations of the candidates and job posts via feature fusion. First, in addition to applying deep learning models for processing the free text in resumes and job posts, which is adopted by existing methods, we extract semantic entities from the whole resume (and job post) and then learn features for them. By fusing the features from the free text and the entities, we get a comprehensive representation for the information explicitly stated in the resume and job post. Second, however, some information of a candidate or a job may not be explicitly captured in the resume or job post. Nonetheless, the historical applications including accepted and rejected cases can reveal some implicit intentions of the candidates or recruiters. Therefore, we propose to learn the representations of implicit intentions by processing the historical applications using LSTM. Last, by fusing the representations for the explicit and implicit intentions, we get a more comprehensive and effective representation for person-job fit. Experiments over 10 months real data show that our solution outperforms existing methods with a large margin. Ablation studies confirm the contribution of each component of the fused representation. The extracted semantic entities help interpret the matching results during the case study.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "1812.08947": {
+            "title": "Enhancing Person-Job Fit for Talent Recruitment: An Ability-aware Neural Network Approach",
+            "authors": "Chuan Qin, Hengshu Zhu, Tong Xu, Chen Zhu, Liang Jiang, Enhong Chen, Hui Xiong",
+            "first_author": "Chuan Qin",
+            "url": "https://arxiv.org/abs/1812.08947",
+            "pdf_url": "https://arxiv.org/abs/1812.08947",
+            "publish_date": "2018-12-21",
+            "abstract": "The wide spread use of online recruitment services has led to information explosion in the job market. As a result, the recruiters have to seek the intelligent ways for Person Job Fit, which is the bridge for adapting the right job seekers to the right positions. Existing studies on Person Job Fit have a focus on measuring the matching degree between the talent qualification and the job requirements mainly based on the manual inspection of human resource experts despite of the subjective, incomplete, and inefficient nature of the human judgement. To this end, in this paper, we propose a novel end to end Ability aware Person Job Fit Neural Network model, which has a goal of reducing the dependence on manual labour and can provide better interpretation about the fitting results. The key idea is to exploit the rich information available at abundant historical job application data. Specifically, we propose a word level semantic representation for both job requirements and job seekers' experiences based on Recurrent Neural Network. Along this line, four hierarchical ability aware attention strategies are designed to measure the different importance of job requirements for semantic representation, as well as measuring the different contribution of each job experience to a specific ability requirement. Finally, extensive experiments on a large scale real world data set clearly validate the effectiveness and interpretability of the APJFNN framework compared with several baselines.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "1810.04040": {
+            "title": "Person-Job Fit: Adapting the Right Talent for the Right Job with Joint Representation Learning",
+            "authors": "Chen Zhu, Hengshu Zhu, Hui Xiong, Chao Ma, Fang Xie, Pengliang Ding, Pan Li",
+            "first_author": "Chen Zhu",
+            "url": "https://arxiv.org/abs/1810.04040",
+            "pdf_url": "https://arxiv.org/abs/1810.04040",
+            "publish_date": "2018-10-08",
+            "abstract": "Person-Job Fit is the process of matching the right talent for the right job by identifying talent competencies that are required for the job. While many qualitative efforts have been made in related fields, it still lacks of quantitative ways of measuring talent competencies as well as the job's talent requirements. To this end, in this paper, we propose a novel end-to-end data-driven model based on Convolutional Neural Network (CNN), namely Person-Job Fit Neural Network (PJFNN), for matching a talent qualification to the requirements of a job. To be specific, PJFNN is a bipartite neural network which can effectively learn the joint representation of Person-Job fitness from historical job applications. In particular, due to the design of a hierarchical representation structure, PJFNN can not only estimate whether a candidate fits a job, but also identify which specific requirement items in the job posting are satisfied by the candidate by measuring the distances between corresponding latent representations. Finally, the extensive experiments on a large-scale real-world dataset clearly validate the performance of PJFNN in terms of Person-Job Fit prediction. Also, we provide effective data visualization to show some job and talent benchmark insights obtained by PJFNN.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "1607.07657": {
+            "title": "Machine Learned Resume-Job Matching Solution",
+            "authors": "Yiou Lin, Hang Lei, Prince Clement Addo, Xiaoyu Li",
+            "first_author": "Yiou Lin",
+            "url": "https://arxiv.org/abs/1607.07657",
+            "pdf_url": "https://arxiv.org/abs/1607.07657",
+            "publish_date": "2016-07-26",
+            "abstract": "Job search through online matching engines nowadays are very prominent and beneficial to both job seekers and employers. But the solutions of traditional engines without understanding the semantic meanings of different resumes have not kept pace with the incredible changes in machine learning techniques and computing capability. These solutions are usually driven by manual rules and predefined weights of keywords which lead to an inefficient and frustrating search experience. To this end, we present a machine learned solution with rich features and deep learning methods. Our solution includes three configurable modules that can be plugged with little restrictions. Namely, unsupervised feature extraction, base classifiers training and ensemble method learning. In our solution, rather than using manual rules, machine learned methods to automatically detect the semantic similarity of positions are proposed. Then four competitive \"shallow\" estimators and \"deep\" estimators are selected. Finally, ensemble methods to bag these estimators and aggregate their individual predictions to form a final prediction are verified. Experimental results of over 47 thousand resumes show that our solution can significantly improve the predication precision current position, salary, educational background and company scale.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
         }
     }
 }

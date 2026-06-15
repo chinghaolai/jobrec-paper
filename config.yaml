@@ -24,3 +24,7 @@ md_wechat_path: './docs/wechat.md'
 keywords:
     "Job Recommendation":
         filters: ["Job Recommendation", "Job Recommender", "Job recommendations"]
+    "Talent Recommendation":
+        filters: ["Talent Recommendation", "Talent Recommender", "Candidate Recommendation"]
+    "Person-Job Fit":
+        filters: ["Person-Job Fit", "Person-Job Matching", "Talent-Job Matching", "Resume-Job Matching", "Job Matching"]

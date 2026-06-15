@@ -96,11 +96,12 @@ def _fetch_batch(query: str, start: int, batch: int, max_retries: int = 5) -> li
     return []
 
 
-def get_daily_papers(topic: str, query: str, max_results: int) -> dict:
+def get_daily_papers(topic: str, query: str, max_results: int, filters: list = None) -> dict:
     """Fetches papers from the arXiv HTTP API (no external library required)."""
     papers = {}
     start = 0
     batch_size = min(max_results, 500)  # arXiv recommends ≤ 500 per call
+    match_terms = [f.lower() for f in (filters or [topic])]
 
     while start < max_results:
         try:
@@ -115,7 +116,7 @@ def get_daily_papers(topic: str, query: str, max_results: int) -> dict:
         for entry in entries:
             title = re.sub(r"\s+", " ", _text(entry, "atom:title"))
 
-            if "job recommendation" not in title.lower():
+            if not any(term in title.lower() for term in match_terms):
                 continue
 
             entry_id = _text(entry, "atom:id")
@@ -256,12 +257,14 @@ def main(**config):
     data_collector = []
 
     logging.info("=== Starting daily arXiv fetch ===")
+    keyword_cfg = config.get("keywords", {})
     for topic, query in config.get("keyword_queries", {}).items():
         logging.info(f"Topic: '{topic}' | Query: {query}")
         result = get_daily_papers(
             topic=topic,
             query=query,
             max_results=config.get("max_results", 200),
+            filters=keyword_cfg.get(topic, {}).get("filters"),
         )
         if result.get(topic):
             data_collector.append(result)
