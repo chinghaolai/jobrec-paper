@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-06-16
+## Updated on 2026-08-26
 ## Job Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
@@ -53,9 +53,10 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2026-07-17 | **From Skill Extraction to Multistakeholder Recommendation: A Two-Stage Framework for Bias Governance in Skills-Based Job Matching** | Andrea Forster, Gregor Autischer, Dominik Kowald, Simone Kopeinik | [Link](https://arxiv.org/abs/2607.15707) | N/A |
 | 2026-05-10 | **ConFit v3: Improving Resume-Job Matching with LLM-based Re-Ranking** | Xiao Yu, Ruize Xu, Chengyuan Xue, Junyu Chen, Matthew So, Shijun Ma, Bo Liu, Xiangye Liang, Zhou Yu | [Link](https://arxiv.org/abs/2605.09760) | N/A |
 | 2026-05-03 | **Strategy-proof and Efficient Job Matching with Participation Constraints** | Sushil Bikhchandani, Debasis Mishra | [Link](https://arxiv.org/abs/2605.01715) | N/A |
-| 2026-03-15 | **JobMatchAI An Intelligent Job Matching Platform Using Knowledge Graphs, Semantic Search and Explainable AI** | Mayank Vyas, Abhijit Chakraborty, Vivek Gupta | [Link](https://arxiv.org/abs/2603.14558) | N/A |
+| 2026-03-15 | **JobMatchAI-An Intelligent Job Matching Platform Using Knowledge Graphs, Semantic Search and Explainable AI** | Mayank Vyas, Abhijit Chakraborty, Vivek Gupta | [Link](https://arxiv.org/abs/2603.14558) | N/A |
 | 2026-01-15 | **An Efficient Long-Context Ranking Architecture With Calibrated LLM Distillation: Application to Person-Job Fit** | Warren Jouanneau, Emma Jouffroy, Marc Palyart | [Link](https://arxiv.org/abs/2601.10321) | N/A |
 | 2025-12-02 | **Enhancing Job Matching: Occupation, Skill and Qualification Linking with the ESCO and EQF taxonomies** | Stylianos Saroglou, Konstantinos Diamantaras, Francesco Preta, Marina Delianidi, Apostolos Benisis, Christian Johannes Meyer | [Link](https://arxiv.org/abs/2512.03195) | N/A |
 | 2025-11-04 | **Smart-Hiring: An Explainable end-to-end Pipeline for CV Information Extraction and Job Matching** | Kenza Khelkhal, Dihia Lanasri | [Link](https://arxiv.org/abs/2511.02537) | N/A |

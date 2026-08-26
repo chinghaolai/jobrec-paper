@@ -423,7 +423,7 @@
             "code_url": "null"
         },
         "2603.14558": {
-            "title": "JobMatchAI An Intelligent Job Matching Platform Using Knowledge Graphs, Semantic Search and Explainable AI",
+            "title": "JobMatchAI-An Intelligent Job Matching Platform Using Knowledge Graphs, Semantic Search and Explainable AI",
             "authors": "Mayank Vyas, Abhijit Chakraborty, Vivek Gupta",
             "first_author": "Mayank Vyas",
             "url": "https://arxiv.org/abs/2603.14558",
@@ -695,6 +695,17 @@
             "publish_date": "2016-07-26",
             "abstract": "Job search through online matching engines nowadays are very prominent and beneficial to both job seekers and employers. But the solutions of traditional engines without understanding the semantic meanings of different resumes have not kept pace with the incredible changes in machine learning techniques and computing capability. These solutions are usually driven by manual rules and predefined weights of keywords which lead to an inefficient and frustrating search experience. To this end, we present a machine learned solution with rich features and deep learning methods. Our solution includes three configurable modules that can be plugged with little restrictions. Namely, unsupervised feature extraction, base classifiers training and ensemble method learning. In our solution, rather than using manual rules, machine learned methods to automatically detect the semantic similarity of positions are proposed. Then four competitive \"shallow\" estimators and \"deep\" estimators are selected. Finally, ensemble methods to bag these estimators and aggregate their individual predictions to form a final prediction are verified. Experimental results of over 47 thousand resumes show that our solution can significantly improve the predication precision current position, salary, educational background and company scale.",
             "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2607.15707": {
+            "title": "From Skill Extraction to Multistakeholder Recommendation: A Two-Stage Framework for Bias Governance in Skills-Based Job Matching",
+            "authors": "Andrea Forster, Gregor Autischer, Dominik Kowald, Simone Kopeinik",
+            "first_author": "Andrea Forster",
+            "url": "https://arxiv.org/abs/2607.15707",
+            "pdf_url": "https://arxiv.org/abs/2607.15707",
+            "publish_date": "2026-07-17",
+            "abstract": "AI-based labor-market systems or platforms can affect access to job opportunities prior to organizational candidate rankings or hiring decisions. Such applications warrant caution, as biases in skill extraction, profile formation, and candidate-job matching may contribute to unfair treatment of candidates. In this paper, we propose a two-stage framework for detecting and governing bias in skills-based job matching. Stage 1, skill extraction and profile formation, addresses how candidates provide skills and preferences to the system, how the system extracts and structures this information, and the bias risks this entails, with a focus on chatbot-based elicitation. Stage 2, multistakeholder candidate-job recommendation, would embed this information in a recommender system in which candidate, company, and regulatory objectives are represented by separate agents, each producing an independent candidate-job ranking; these rankings would be combined through social choice-based aggregation into a single, auditable recommendation. The two stages are connected by a shared distinction between hard constraints, which require correction before processing continues, and soft constraints, which are logged to inform later decisions. Following an AI Act-aligned assessment methodology (based on the Fraunhofer AI Assessment Catalog), we propose using distributional auditing and counterfactual testing to produce a Stage 1 bias inventory sorted into hard and soft constraints, with the latter informing fairness thresholds for Stage 2. The same logic would apply to Stage 2: fairness metrics crossing predefined thresholds would trigger an adapted recommendation process, while smaller deviations would be logged as bias reports and persistent fairness states.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
