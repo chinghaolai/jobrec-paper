@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-26
+## Updated on 2026-08-31
 ## Job Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
