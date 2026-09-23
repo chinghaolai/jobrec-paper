@@ -7,8 +7,17 @@ import argparse
 import datetime
 import urllib.request
 import urllib.parse
+import urllib.error
 import xml.etree.ElementTree as ET
 from pathlib import Path
+
+# arXiv's CDN (Fastly) rejects Python's stdlib urllib request fingerprint with
+# HTTP 406, so we prefer `requests` (urllib3) when available and fall back to
+# urllib only if it isn't installed.
+try:
+    import requests
+except ImportError:
+    requests = None
 
 logging.basicConfig(
     format='[%(asctime)s %(levelname)s] %(message)s',
@@ -58,6 +67,26 @@ def load_config(config_file: Path) -> dict:
     return config
 
 
+HEADERS = {"User-Agent": "daily-arxiv-fetcher/1.0"}
+
+
+def _http_get(url: str) -> bytes:
+    """Performs a single GET returning the raw response body.
+
+    Uses `requests` when available (arXiv's Fastly CDN rejects the stdlib
+    urllib fingerprint with HTTP 406); otherwise falls back to urllib. Raises
+    on non-2xx responses, exposing a `.code` attribute for 429 handling."""
+    if requests is not None:
+        resp = requests.get(url, headers=HEADERS, timeout=30)
+        if resp.status_code != 200:
+            raise urllib.error.HTTPError(url, resp.status_code, resp.reason, resp.headers, None)
+        return resp.content
+
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read()
+
+
 def _fetch_batch(query: str, start: int, batch: int, max_retries: int = 5) -> list:
     """Calls the arXiv API and returns a list of <entry> Element objects.
     Retries with exponential backoff on 429 / transient errors."""
@@ -71,12 +100,10 @@ def _fetch_batch(query: str, start: int, batch: int, max_retries: int = 5) -> li
     url = f"{ARXIV_API_URL}?{params}"
     logging.info(f"Fetching: {url}")
 
-    req = urllib.request.Request(url, headers={"User-Agent": "daily-arxiv-fetcher/1.0"})
     delay = 10
     for attempt in range(1, max_retries + 1):
         try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                xml_data = resp.read()
+            xml_data = _http_get(url)
             root = ET.fromstring(xml_data)
             return root.findall("atom:entry", _NS)
         except urllib.error.HTTPError as exc:
